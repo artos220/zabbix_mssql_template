@@ -6,6 +6,7 @@ This template monitors SQL Server databases status, jobs status, performance,  e
 * Before install template, create in Zabbix Value Mapping:
 
 Name of mapping:
+
 MS SQL Server database state
 
 |Value    |Mapped to
@@ -20,7 +21,9 @@ MS SQL Server database state
 |7        |Database Does Not Exist on Server
 
 * To use ODBC, install unixODBC and freeTDS.
+
 Sample config ODBC:
+
 /etc/odbcinst.ini
 ```shell
 [FreeTDS]
