@@ -19,7 +19,7 @@ MS SQL Server database state
 |6        |OFFLINE
 |7        |Database Does Not Exist on Server
 
-* To use ODBC, install unixODBC and freeTDS .
+* To use ODBC, install unixODBC and freeTDS.
 Sample config ODBC:
 /etc/odbcinst.ini
 ```shell
