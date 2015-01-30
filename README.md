@@ -32,8 +32,8 @@ Sample config ODBC:
     Driver = FreeTDS
     ServerName = 1c_base
 
-And configure SQL Server to access data for ODBC user:
-```SQL
+And configure SQL Server to access data for ODBC user [zab]:
+```MSSQL
 CREATE LOGIN [zab] WITH PASSWORD=N'****', DEFAULT_DATABASE=[master], DEFAULT_LANGUAGE=[us_english], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
 
 GRANT VIEW SERVER STATE to [zab]
