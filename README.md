@@ -21,19 +21,19 @@ MS SQL Server database state
 To use ODBC, install unixODBC and freeTDS .
 Sample config ODBC:
 /etc/odbcinst.ini
-```ini
-    [FreeTDS]
-    Description = FreeTDS Driver v0.91
-    Driver = /usr/lib/i386-linux-gnu/odbc/libtdsodbc.so
-    Setup = /usr/lib/i386-linux-gnu/odbc/libtdsS.so
-    UsageCount = 1
+```shell
+[FreeTDS]
+Description = FreeTDS Driver v0.91
+Driver = /usr/lib/i386-linux-gnu/odbc/libtdsodbc.so
+Setup = /usr/lib/i386-linux-gnu/odbc/libtdsS.so
+UsageCount = 1
 ```
 
 /etc/odbc.ini
-```ini
-    [1c_base]
-    Driver = FreeTDS
-    ServerName = 1c_base
+```shell
+[1c_base]
+Driver = FreeTDS
+ServerName = 1c_base
 ```
 
 And configure SQL Server to access data for ODBC user [zab]:
