@@ -6,8 +6,9 @@ Before install template, create Value Mapping:
 
 Name    MS SQL Server database state
 
+----------------------
 |Value    |Mapped to
----------------------
+|---------|----------
 |0        |ONLINE
 |1        |RESTORING
 |2        |RECOVERING
@@ -16,6 +17,7 @@ Name    MS SQL Server database state
 |5        |EMERGENCY
 |6        |OFFLINE
 |7        |Database Does Not Exist on Server
+------------------------
 
 
 To use ODBC, install unixODBC and freeTDS .
