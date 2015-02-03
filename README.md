@@ -1,20 +1,15 @@
 # Zabbix template for Microsoft SQL Server monitoring via perfmon, services and ODBC.
-
 This template monitors SQL Server databases status, jobs status, performance,  etc.
---------------------------------
 
 ##### Requirements:
-
 * Zabbix 2.2
 * unixODBC
 * freeTDS
 
 ##### Installation:
-
 * Before install template, create in Zabbix Value Mapping:
 
 Name of mapping:
-
 MS SQL Server database state
 
 |Value    |Mapped to
@@ -31,7 +26,6 @@ MS SQL Server database state
 * To use ODBC, install unixODBC and freeTDS.
 
 Sample config ODBC:
-
 /etc/odbcinst.ini
 ```shell
 [FreeTDS]
