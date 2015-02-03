@@ -3,17 +3,15 @@
 This template monitors SQL Server databases status, jobs status, performance,  etc.
 --------------------------------
 
-* Requirements:
+##### Requirements:
 
-    Zabbix 2.2
-    
-    unixODBC
-    
-    freeTDS
-    
-* Installation:
+    * Zabbix 2.2
+    * unixODBC
+    * freeTDS
 
-Before install template, create in Zabbix Value Mapping:
+##### Installation:
+
+* Before install template, create in Zabbix Value Mapping:
 
 Name of mapping:
 
