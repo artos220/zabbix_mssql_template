@@ -6,7 +6,9 @@ This template monitors SQL Server databases status, jobs status, performance,  e
 * Requirements:
 
     Zabbix 2.2
+    
     unixODBC
+    
     freeTDS
     
 * Installation:
