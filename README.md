@@ -62,10 +62,6 @@ This template monitors SQL Server databases status, jobs status, server performa
   
   GRANT VIEW SERVER STATE to [zab]
   GRANT VIEW ANY DEFINITION TO [zab]
-  
-  USE master;
-  GRANT SELECT TO [zab];
-  
-  USE msdb;
-  GRANT SELECT TO [zab];
   ```
+  
+  And create user mapping to read data from master and msdb.
