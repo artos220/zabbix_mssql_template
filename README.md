@@ -54,6 +54,8 @@ This template monitors SQL Server databases status, jobs status, server performa
   [1c_base]
     host = 10.1.0.1
     port = 1433
+    client charset = UTF-8
+    tds version = 8.0
   ```
   
 * And configure SQL Server to access data for ODBC user [zab]:
