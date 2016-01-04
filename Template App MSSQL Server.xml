@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2015-04-22T13:04:19Z</date>
+    <date>2016-01-04T15:27:16Z</date>
     <groups>
         <group>
-            <name>Templates</name>
+            <name>Template MSSQL</name>
         </group>
     </groups>
     <templates>
         <template>
             <template>Template App MSSQL Server</template>
             <name>Template App MSSQL Server</name>
+            <description/>
             <groups>
                 <group>
-                    <name>Templates</name>
+                    <name>Template MSSQL</name>
                 </group>
             </groups>
             <applications>
@@ -77,6 +78,7 @@
                     <valuemap>
                         <name>Service state</name>
                     </valuemap>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL Server: Version</name>
@@ -119,6 +121,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Latches\Average Latch Wait Time (ms)</name>
@@ -161,6 +164,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Latches\Latch Waits/sec</name>
@@ -203,6 +207,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Locks(_Total)\Lock Waits/sec</name>
@@ -245,6 +250,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Locks(_Total)\Number of Deadlocks/sec</name>
@@ -287,6 +293,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Memory Manager\Total Server Memory</name>
@@ -329,6 +336,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Plan Cache(_Total)\Cache Hit Ratio</name>
@@ -371,6 +379,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: SQL Statistics\Batch Requests/sec</name>
@@ -413,6 +422,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: SQL Statistics\SQL Compilations/sec</name>
@@ -455,6 +465,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: SQL Statistics\SQL Re-Compilations/sec</name>
@@ -497,6 +508,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Transactions\Longest Transaction Running Time</name>
@@ -539,6 +551,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Wait Statistics(Average wait time (ms))\Lock waits</name>
@@ -581,6 +594,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Wait Statistics(Average wait time (ms))\Log buffer waits</name>
@@ -623,6 +637,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Wait Statistics(Average wait time (ms))\Log write waits</name>
@@ -665,6 +680,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Wait Statistics(Average wait time (ms))\Memory grant queue waits</name>
@@ -707,6 +723,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Wait Statistics(Average wait time (ms))\Network IO waits</name>
@@ -749,6 +766,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Wait Statistics(Average wait time (ms))\Non-Page latch waits</name>
@@ -791,6 +809,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Wait Statistics(Average wait time (ms))\Page IO latch waits</name>
@@ -833,6 +852,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>MSSQL {$PSQLSERVER}: Wait Statistics(Average wait time (ms))\Page latch waits</name>
@@ -875,6 +895,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>{$PSQLAGENT}: Jobs(_Total)\Failed Jobs</name>
@@ -917,6 +938,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>{$PSQLSERVER}: Buffer Manager\Buffer cache hit ratio</name>
@@ -959,6 +981,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>{$PSQLSERVER}: Buffer Manager\Database Pages</name>
@@ -1001,6 +1024,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>{$PSQLSERVER}: Buffer Manager\Lazy writes/sec</name>
@@ -1043,6 +1067,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>{$PSQLSERVER}: Buffer Manager\Page Life Expectancy</name>
@@ -1085,6 +1110,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>{$PSQLSERVER}: Databases(_Total)\Data File Size</name>
@@ -1127,6 +1153,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>{$PSQLSERVER}: Databases(_Total)\Log File Size</name>
@@ -1169,6 +1196,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>{$PSQLSERVER}: Databases(_Total)\Percent Log Used</name>
@@ -1211,6 +1239,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>{$PSQLSERVER}: Databases(_Total)\Transactions/sec</name>
@@ -1253,6 +1282,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>{$PSQLSERVER}: General Statistics\Blocked Processes</name>
@@ -1295,6 +1325,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>{$PSQLSERVER}: General Statistics\User Connections</name>
@@ -1337,6 +1368,7 @@
                         </application>
                     </applications>
                     <valuemap/>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>{$SSQLAGENT}: Service State - SQL Agent</name>
@@ -1381,6 +1413,7 @@
                     <valuemap>
                         <name>Windows service state</name>
                     </valuemap>
+                    <logtimefmt/>
                 </item>
                 <item>
                     <name>{$SSQLSERVER}: Service State - SQL Server</name>
@@ -1425,48 +1458,7 @@
                     <valuemap>
                         <name>Windows service state</name>
                     </valuemap>
-                </item>
-                <item>
-                    <name>{$SSQLSERVER}: \Process(sqlservr)\% Processor Time</name>
-                    <type>0</type>
-                    <snmp_community/>
-                    <multiplier>0</multiplier>
-                    <snmp_oid/>
-                    <key>perf_counter[&quot;\Process(sqlservr)\% Processor Time&quot;]</key>
-                    <delay>300</delay>
-                    <history>7</history>
-                    <trends>365</trends>
-                    <status>1</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <delta>0</delta>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <formula>1</formula>
-                    <delay_flex/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <data_type>0</data_type>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description/>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>MSSQL_Server</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
+                    <logtimefmt/>
                 </item>
             </items>
             <discovery_rules>
@@ -1505,7 +1497,18 @@ for xml PATH('')</params>
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <filter>{#DBNAME}:@MSSQL Databases for discovery</filter>
+                    <filter>
+                        <evaltype>0</evaltype>
+                        <formula/>
+                        <conditions>
+                            <condition>
+                                <macro>{#DBNAME}</macro>
+                                <value>@MSSQL Databases for discovery</value>
+                                <operator>8</operator>
+                                <formulaid>A</formulaid>
+                            </condition>
+                        </conditions>
+                    </filter>
                     <lifetime>30</lifetime>
                     <description>Discovery of Databases as defined in global regular expression &quot;MSSQL Databases for discovery&quot;.</description>
                     <item_prototypes>
@@ -1533,21 +1536,17 @@ for xml PATH('')</params>
                             <snmpv3_privpassphrase/>
                             <formula>1024</formula>
                             <delay_flex/>
-                            <params>select SUM(b.MaxsizeKB) from&#13;
-(&#13;
-select MaxsizeKB = (&#13;
-        case maxsize&#13;
+                            <params>select &#13;
+        case min(maxsize)&#13;
             when -1&#13;
                 then convert(bigint, 0)&#13;
             else sum(convert(bigint, maxsize) * 8)&#13;
             end&#13;
-        )&#13;
+       &#13;
 from sys.sysaltfiles&#13;
 where 1 = 1&#13;
     and DB_NAME(dbid) like '{#DBNAME}'&#13;
-    and groupid = 1 --data file&#13;
-group by maxsize&#13;
-) b</params>
+    and groupid = 1 --data file</params>
                             <ipmi_sensor/>
                             <data_type>0</data_type>
                             <authtype>0</authtype>
@@ -1563,9 +1562,8 @@ group by maxsize&#13;
                                     <name>MSSQL_Databases</name>
                                 </application>
                             </applications>
-                            <valuemap>
-                                <name>Windows service state</name>
-                            </valuemap>
+                            <valuemap/>
+                            <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>MSSQL {$PSQLSERVER}:{#DBNAME}: Data File(s) Size (KB)</name>
@@ -1608,6 +1606,54 @@ group by maxsize&#13;
                                 </application>
                             </applications>
                             <valuemap/>
+                            <logtimefmt/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>MSSQL {$PSQLSERVER}:{#DBNAME}: Data File(s) Used</name>
+                            <type>11</type>
+                            <snmp_community/>
+                            <multiplier>1</multiplier>
+                            <snmp_oid/>
+                            <key>db.odbc.select[{#DBNAME}_data_used,{$ODBC_NAME}]</key>
+                            <delay>300</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>1</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts/>
+                            <units>B</units>
+                            <delta>0</delta>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <formula>1024</formula>
+                            <delay_flex/>
+                            <params>select convert(bigint,round(sum(fileproperty(name,'SpaceUsed'))/128.000*1024,0)) as SpaceUsedKB&#13;
+from sys.sysaltfiles&#13;
+where 1 = 1&#13;
+    and DB_NAME(dbid) like '{#DBNAME}'&#13;
+    and groupid = 1 --data file</params>
+                            <ipmi_sensor/>
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username>{$ODBC_USER}</username>
+                            <password>{$ODBC_PASSWORD}</password>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description>Cumulative used size (in kilobytes) of all the data files in the database including any automatic growth.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>MSSQL_Databases</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>MSSQL {$PSQLSERVER}:{#DBNAME}: Log File(s) Maxsize</name>
@@ -1633,21 +1679,17 @@ group by maxsize&#13;
                             <snmpv3_privpassphrase/>
                             <formula>1024</formula>
                             <delay_flex/>
-                            <params>select SUM(b.MaxsizeKB) from&#13;
-(&#13;
-select MaxsizeKB = (&#13;
-        case maxsize&#13;
+                            <params>select &#13;
+        case min(maxsize)&#13;
             when -1&#13;
                 then convert(bigint, 0)&#13;
             else sum(convert(bigint, maxsize) * 8)&#13;
             end&#13;
-        )&#13;
+       &#13;
 from sys.sysaltfiles&#13;
 where 1 = 1&#13;
     and DB_NAME(dbid) like '{#DBNAME}'&#13;
-    and groupid = 0 --log file&#13;
-group by maxsize&#13;
-) b</params>
+    and groupid = 0 --log file</params>
                             <ipmi_sensor/>
                             <data_type>0</data_type>
                             <authtype>0</authtype>
@@ -1664,6 +1706,7 @@ group by maxsize&#13;
                                 </application>
                             </applications>
                             <valuemap/>
+                            <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>MSSQL {$PSQLSERVER}:{#DBNAME}: Log File(s) Size (KB)</name>
@@ -1706,6 +1749,93 @@ group by maxsize&#13;
                                 </application>
                             </applications>
                             <valuemap/>
+                            <logtimefmt/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>MSSQL {$PSQLSERVER}:{#DBNAME}: Log File(s) Used Size (KB)</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <multiplier>1</multiplier>
+                            <snmp_oid/>
+                            <key>perf_counter[\{$PSQLSERVER}:Databases({#DBNAME})\Log File(s) Used Size (KB)]</key>
+                            <delay>300</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units>B</units>
+                            <delta>0</delta>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <formula>1024</formula>
+                            <delay_flex/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description>Cumulative max size (in kilobytes) of all the data files in the database including any automatic growth.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>MSSQL_Databases</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
+                        </item_prototype>
+                        <item_prototype>
+                            <name>MSSQL {$PSQLSERVER}:{#DBNAME}: Percent Log Used</name>
+                            <type>0</type>
+                            <snmp_community/>
+                            <multiplier>0</multiplier>
+                            <snmp_oid/>
+                            <key>perf_counter[\{$PSQLSERVER}:Databases({#DBNAME})\Percent Log Used]</key>
+                            <delay>300</delay>
+                            <history>7</history>
+                            <trends>365</trends>
+                            <status>0</status>
+                            <value_type>0</value_type>
+                            <allowed_hosts/>
+                            <units/>
+                            <delta>0</delta>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <formula>1</formula>
+                            <delay_flex/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port/>
+                            <description>Cumulative max size (in kilobytes) of all the data files in the database including any automatic growth.</description>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>MSSQL_Databases</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                            <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>MSSQL {$PSQLSERVER}:{#DBNAME}: State</name>
@@ -1742,7 +1872,7 @@ where name = '{#DBNAME}'</params>
                             <publickey/>
                             <privatekey/>
                             <port/>
-                            <description>Cumulative size (in kilobytes) of all the data files in the database including any automatic growth.</description>
+                            <description>State of database.</description>
                             <inventory_link>0</inventory_link>
                             <applications>
                                 <application>
@@ -1752,11 +1882,12 @@ where name = '{#DBNAME}'</params>
                             <valuemap>
                                 <name>Windows service state</name>
                             </valuemap>
+                            <logtimefmt/>
                         </item_prototype>
                     </item_prototypes>
                     <trigger_prototypes>
                         <trigger_prototype>
-                            <expression>{Template App MSSQL Server:db.odbc.select[{#DBNAME}_state,{$ODBC_NAME}].last()}#0</expression>
+                            <expression>{Template App MSSQL Server:db.odbc.select[{#DBNAME}_state,{$ODBC_NAME}].last()}&lt;&gt;0</expression>
                             <name>Database {#DBNAME} not online</name>
                             <url/>
                             <status>0</status>
@@ -1765,38 +1896,38 @@ where name = '{#DBNAME}'</params>
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template App MSSQL Server:db.odbc.select[{#DBNAME}_data_maxsize,{$ODBC_NAME}].last()}&gt;0 &amp; {Template App MSSQL Server:perf_counter[\{$PSQLSERVER}:Databases({#DBNAME})\Data File(s) Size (KB)].last()}&gt;({Template App MSSQL Server:db.odbc.select[{#DBNAME}_data_maxsize,{$ODBC_NAME}].last()}*96/100)</expression>
+                            <expression>{Template App MSSQL Server:db.odbc.select[{#DBNAME}_data_maxsize,{$ODBC_NAME}].last()}&gt;0 and {Template App MSSQL Server:perf_counter[\{$PSQLSERVER}:Databases({#DBNAME})\Data File(s) Size (KB)].last()}&gt;({Template App MSSQL Server:db.odbc.select[{#DBNAME}_data_maxsize,{$ODBC_NAME}].last()}*96/100)</expression>
                             <name>Data File(s) {#DBNAME} &lt;3% free</name>
                             <url/>
                             <status>0</status>
-                            <priority>5</priority>
+                            <priority>4</priority>
                             <description/>
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template App MSSQL Server:db.odbc.select[{#DBNAME}_data_maxsize,{$ODBC_NAME}].last()}&gt;0 &amp; {Template App MSSQL Server:perf_counter[\{$PSQLSERVER}:Databases({#DBNAME})\Data File(s) Size (KB)].last()}&gt;({Template App MSSQL Server:db.odbc.select[{#DBNAME}_data_maxsize,{$ODBC_NAME}].last()}*91/100)</expression>
+                            <expression>{Template App MSSQL Server:db.odbc.select[{#DBNAME}_data_maxsize,{$ODBC_NAME}].last()}&gt;0 and {Template App MSSQL Server:perf_counter[\{$PSQLSERVER}:Databases({#DBNAME})\Data File(s) Size (KB)].last()}&gt;({Template App MSSQL Server:db.odbc.select[{#DBNAME}_data_maxsize,{$ODBC_NAME}].last()}*91/100)</expression>
                             <name>Data File(s) {#DBNAME} &lt;8% free</name>
                             <url/>
                             <status>0</status>
-                            <priority>4</priority>
+                            <priority>3</priority>
                             <description/>
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template App MSSQL Server:db.odbc.select[{#DBNAME}_log_maxsize,{$ODBC_NAME}].last()}&gt;0 &amp; {Template App MSSQL Server:perf_counter[\{$PSQLSERVER}:Databases({#DBNAME})\Log File(s) Size (KB)].last()}&gt;({Template App MSSQL Server:db.odbc.select[{#DBNAME}_log_maxsize,{$ODBC_NAME}].last()}*96/100)</expression>
+                            <expression>{Template App MSSQL Server:db.odbc.select[{#DBNAME}_log_maxsize,{$ODBC_NAME}].last()}&gt;0 and {Template App MSSQL Server:perf_counter[\{$PSQLSERVER}:Databases({#DBNAME})\Log File(s) Size (KB)].last()}&gt;({Template App MSSQL Server:db.odbc.select[{#DBNAME}_log_maxsize,{$ODBC_NAME}].last()}*96/100)</expression>
                             <name>Log File(s) {#DBNAME} &lt;3% free</name>
                             <url/>
                             <status>0</status>
-                            <priority>5</priority>
+                            <priority>4</priority>
                             <description/>
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template App MSSQL Server:db.odbc.select[{#DBNAME}_log_maxsize,{$ODBC_NAME}].last()}&gt;0 &amp; {Template App MSSQL Server:perf_counter[\{$PSQLSERVER}:Databases({#DBNAME})\Log File(s) Size (KB)].last()}&gt;({Template App MSSQL Server:db.odbc.select[{#DBNAME}_log_maxsize,{$ODBC_NAME}].last()}*91/100)</expression>
+                            <expression>{Template App MSSQL Server:db.odbc.select[{#DBNAME}_log_maxsize,{$ODBC_NAME}].last()}&gt;0 and {Template App MSSQL Server:perf_counter[\{$PSQLSERVER}:Databases({#DBNAME})\Log File(s) Size (KB)].last()}&gt;({Template App MSSQL Server:db.odbc.select[{#DBNAME}_log_maxsize,{$ODBC_NAME}].last()}*91/100)</expression>
                             <name>Log File(s) {#DBNAME} &lt;8% free</name>
                             <url/>
                             <status>0</status>
-                            <priority>4</priority>
+                            <priority>3</priority>
                             <description/>
                             <type>0</type>
                         </trigger_prototype>
@@ -1823,13 +1954,25 @@ where name = '{#DBNAME}'</params>
                                 <graph_item>
                                     <sortorder>0</sortorder>
                                     <drawtype>0</drawtype>
-                                    <color>C80000</color>
+                                    <color>00C800</color>
                                     <yaxisside>0</yaxisside>
                                     <calc_fnc>2</calc_fnc>
                                     <type>0</type>
                                     <item>
                                         <host>Template App MSSQL Server</host>
                                         <key>perf_counter[\{$PSQLSERVER}:Databases({#DBNAME})\Data File(s) Size (KB)]</key>
+                                    </item>
+                                </graph_item>
+                                <graph_item>
+                                    <sortorder>1</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>C80000</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Template App MSSQL Server</host>
+                                        <key>db.odbc.select[{#DBNAME}_data_maxsize,{$ODBC_NAME}]</key>
                                     </item>
                                 </graph_item>
                             </graph_items>
@@ -1860,14 +2003,14 @@ where name = '{#DBNAME}'</params>
                     select STUFF((&#13;
                                 select ',' + '{&quot;{#JOBNAME}&quot;:&quot;' + (&#13;
                                         case &#13;
-                                            when [Name] like '%\%'&#13;
-                                                then REPLACE([Name], '\', '\\')&#13;
-                                            else [Name]&#13;
+                                            when [name] like '%\%'&#13;
+                                                then REPLACE([name], '\', '\\')&#13;
+                                            else [name]&#13;
                                             end&#13;
                                         ) + '&quot;}'&#13;
                                 from msdb..sysjobs&#13;
                                 where enabled = 1&#13;
-                                order by [Name]&#13;
+                                order by [name]&#13;
                                 for xml PATH('')&#13;
                                 ), 1, 1, '')&#13;
                     )&#13;
@@ -1881,7 +2024,18 @@ where name = '{#DBNAME}'</params>
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <filter>{#JOBNAME}:@MSSQL Jobs for discovery</filter>
+                    <filter>
+                        <evaltype>0</evaltype>
+                        <formula/>
+                        <conditions>
+                            <condition>
+                                <macro>{#JOBNAME}</macro>
+                                <value>@MSSQL Jobs for discovery</value>
+                                <operator>8</operator>
+                                <formulaid>A</formulaid>
+                            </condition>
+                        </conditions>
+                    </filter>
                     <lifetime>10</lifetime>
                     <description>Discovery of Jobs as defined in global regular expression &quot;MSSQL Jobs for discovery&quot;.&#13;
 &#13;
@@ -1902,7 +2056,7 @@ select '{&quot;data&quot;:[&#13;
                             <snmp_oid/>
                             <key>db.odbc.select[{#JOBNAME}_duration,{$ODBC_NAME}]</key>
                             <delay>300</delay>
-                            <history>90</history>
+                            <history>14</history>
                             <trends>365</trends>
                             <status>0</status>
                             <value_type>3</value_type>
@@ -1951,24 +2105,25 @@ where aj.stop_execution_date is null&#13;
                                 </application>
                             </applications>
                             <valuemap/>
+                            <logtimefmt/>
                         </item_prototype>
                     </item_prototypes>
                     <trigger_prototypes>
                         <trigger_prototype>
-                            <expression>{Template App MSSQL Server:db.odbc.select[{#JOBNAME}_duration,{$ODBC_NAME}].min(1h)}#0</expression>
+                            <expression>{Template App MSSQL Server:db.odbc.select[{#JOBNAME}_duration,{$ODBC_NAME}].min(1h)}&lt;&gt;0</expression>
                             <name>Job {#JOBNAME} running &gt;1h</name>
                             <url/>
                             <status>0</status>
-                            <priority>4</priority>
+                            <priority>3</priority>
                             <description/>
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{Template App MSSQL Server:db.odbc.select[{#JOBNAME}_duration,{$ODBC_NAME}].min(3h)}#0</expression>
+                            <expression>{Template App MSSQL Server:db.odbc.select[{#JOBNAME}_duration,{$ODBC_NAME}].min(3h)}&lt;&gt;0</expression>
                             <name>Job {#JOBNAME} running &gt;3h</name>
                             <url/>
                             <status>0</status>
-                            <priority>5</priority>
+                            <priority>4</priority>
                             <description/>
                             <type>0</type>
                         </trigger_prototype>
@@ -1983,7 +2138,7 @@ where aj.stop_execution_date is null&#13;
                     <snmp_oid/>
                     <key>db.odbc.select[Username,{$ODBC_NAME}]</key>
                     <delay>3600</delay>
-                    <status>1</status>
+                    <status>0</status>
                     <allowed_hosts/>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
@@ -2024,7 +2179,11 @@ for xml PATH('')</params>
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <filter>:</filter>
+                    <filter>
+                        <evaltype>0</evaltype>
+                        <formula/>
+                        <conditions/>
+                    </filter>
                     <lifetime>10</lifetime>
                     <description>Discovery of Username</description>
                     <item_prototypes>
@@ -2036,9 +2195,9 @@ for xml PATH('')</params>
                             <snmp_oid/>
                             <key>db.odbc.select[{#USERNAME}_Locked,{$ODBC_NAME}]</key>
                             <delay>300</delay>
-                            <history>90</history>
+                            <history>14</history>
                             <trends>365</trends>
-                            <status>1</status>
+                            <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -2079,6 +2238,7 @@ WHERE 1=1&#13;
                                 </application>
                             </applications>
                             <valuemap/>
+                            <logtimefmt/>
                         </item_prototype>
                         <item_prototype>
                             <name>SQL {$PSQLSERVER}:{#USERNAME}: isPolicyChecked</name>
@@ -2088,9 +2248,9 @@ WHERE 1=1&#13;
                             <snmp_oid/>
                             <key>db.odbc.select[{#USERNAME}_PolicyChecked,{$ODBC_NAME}]</key>
                             <delay>300</delay>
-                            <history>90</history>
+                            <history>14</history>
                             <trends>365</trends>
-                            <status>1</status>
+                            <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
                             <units/>
@@ -2131,6 +2291,7 @@ WHERE 1=1&#13;
                                 </application>
                             </applications>
                             <valuemap/>
+                            <logtimefmt/>
                         </item_prototype>
                     </item_prototypes>
                     <trigger_prototypes>
@@ -2138,7 +2299,7 @@ WHERE 1=1&#13;
                             <expression>{Template App MSSQL Server:db.odbc.select[{#USERNAME}_Locked,{$ODBC_NAME}].last()}=1</expression>
                             <name>User {#USERNAME} isLocked</name>
                             <url/>
-                            <status>1</status>
+                            <status>0</status>
                             <priority>5</priority>
                             <description/>
                             <type>0</type>
@@ -2148,7 +2309,7 @@ WHERE 1=1&#13;
                             <name>User {#USERNAME} pswrd policy disabled</name>
                             <url/>
                             <status>1</status>
-                            <priority>5</priority>
+                            <priority>4</priority>
                             <description/>
                             <type>0</type>
                         </trigger_prototype>
@@ -2253,6 +2414,7 @@ WHERE 1=1&#13;
                                 <name>MSSQL Instance: Buffer Manager\Buffer cache hit ratio</name>
                                 <host>Template App MSSQL Server</host>
                             </resource>
+                            <max_columns>3</max_columns>
                             <application/>
                         </screen_item>
                         <screen_item>
@@ -2274,6 +2436,7 @@ WHERE 1=1&#13;
                                 <name>MSSQL Instance: Plan Cache(_Total)\Cache Hit Ratio</name>
                                 <host>Template App MSSQL Server</host>
                             </resource>
+                            <max_columns>3</max_columns>
                             <application/>
                         </screen_item>
                         <screen_item>
@@ -2295,6 +2458,7 @@ WHERE 1=1&#13;
                                 <name>MSSQL Instance: Buffer Manager\Page Life Expectancy</name>
                                 <host>Template App MSSQL Server</host>
                             </resource>
+                            <max_columns>3</max_columns>
                             <application/>
                         </screen_item>
                         <screen_item>
@@ -2316,6 +2480,7 @@ WHERE 1=1&#13;
                                 <name>MSSQL Instance: Buffer Manager\Lazy writes/sec</name>
                                 <host>Template App MSSQL Server</host>
                             </resource>
+                            <max_columns>3</max_columns>
                             <application/>
                         </screen_item>
                         <screen_item>
@@ -2337,6 +2502,7 @@ WHERE 1=1&#13;
                                 <name>MSSQL Instance: Databases(_Total)\Transactions/sec</name>
                                 <host>Template App MSSQL Server</host>
                             </resource>
+                            <max_columns>3</max_columns>
                             <application/>
                         </screen_item>
                         <screen_item>
@@ -2358,6 +2524,7 @@ WHERE 1=1&#13;
                                 <name>MSSQL Instance: Locks(_Total)\Lock Waits/sec</name>
                                 <host>Template App MSSQL Server</host>
                             </resource>
+                            <max_columns>3</max_columns>
                             <application/>
                         </screen_item>
                         <screen_item>
@@ -2379,6 +2546,7 @@ WHERE 1=1&#13;
                                 <name>MSSQL Instance: General Statistics\User Connections</name>
                                 <host>Template App MSSQL Server</host>
                             </resource>
+                            <max_columns>3</max_columns>
                             <application/>
                         </screen_item>
                         <screen_item>
@@ -2400,6 +2568,7 @@ WHERE 1=1&#13;
                                 <name>MSSQL Instance: SQL Statistics\Batch Requests/sec</name>
                                 <host>Template App MSSQL Server</host>
                             </resource>
+                            <max_columns>3</max_columns>
                             <application/>
                         </screen_item>
                     </screen_items>
@@ -2412,18 +2581,18 @@ WHERE 1=1&#13;
             <expression>{Template App MSSQL Server:perf_counter[&quot;\{$PSQLAGENT}:Jobs(_Total)\Failed jobs&quot;].change(0)}&gt;0</expression>
             <name>{$PSQLAGENT}: Failed Jobs {ITEM.VALUE}</name>
             <url/>
-            <status>0</status>
-            <priority>4</priority>
+            <status>1</status>
+            <priority>1</priority>
             <description>Steinar testar 2</description>
             <type>0</type>
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{Template App MSSQL Server:perf_counter[&quot;\{$PSQLSERVER}:Buffer Manager\Buffer cache hit ratio&quot;].avg(10m)}&lt;90</expression>
+            <expression>{Template App MSSQL Server:perf_counter[&quot;\{$PSQLSERVER}:Buffer Manager\Buffer cache hit ratio&quot;].avg(#3)}&lt;90</expression>
             <name>{$PSQLSERVER}: Buffer cache hit ratio: {ITEM.VALUE}</name>
             <url/>
-            <status>0</status>
-            <priority>3</priority>
+            <status>1</status>
+            <priority>1</priority>
             <description>Memory pressure in SQL Server</description>
             <type>0</type>
             <dependencies/>
@@ -2433,7 +2602,7 @@ WHERE 1=1&#13;
             <name>{$PSQLSERVER}: Deadlocks {ITEM.VALUE} per sec</name>
             <url/>
             <status>0</status>
-            <priority>3</priority>
+            <priority>2</priority>
             <description/>
             <type>0</type>
             <dependencies/>
@@ -2449,7 +2618,7 @@ WHERE 1=1&#13;
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{Template App MSSQL Server:perf_counter[&quot;\{$PSQLSERVER}:General Statistics\Processes blocked&quot;].avg(10m)}&gt;10</expression>
+            <expression>{Template App MSSQL Server:perf_counter[&quot;\{$PSQLSERVER}:General Statistics\Processes blocked&quot;].avg(#3)}&gt;10</expression>
             <name>{$PSQLSERVER}: Many Blocked Processes: {ITEM.VALUE}</name>
             <url/>
             <status>0</status>
@@ -2459,17 +2628,17 @@ WHERE 1=1&#13;
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{Template App MSSQL Server:perf_counter[&quot;\{$PSQLSERVER}:Buffer Manager\Page Life Expectancy&quot;].avg(10m)}&lt;300</expression>
+            <expression>{Template App MSSQL Server:perf_counter[&quot;\{$PSQLSERVER}:Buffer Manager\Page Life Expectancy&quot;].avg(#3)}&lt;300</expression>
             <name>{$PSQLSERVER}: Page Life Expectancy low: {ITEM.VALUE}</name>
             <url/>
-            <status>0</status>
-            <priority>3</priority>
+            <status>1</status>
+            <priority>2</priority>
             <description>Memory pressure in SQL Server</description>
             <type>0</type>
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{Template App MSSQL Server:service_state[{$SSQLAGENT}].last(0)}#0</expression>
+            <expression>{Template App MSSQL Server:service_state[{$SSQLAGENT}].last(0)}&lt;&gt;0</expression>
             <name>{HOST.NAME}: SQL Agent not running</name>
             <url/>
             <status>0</status>
@@ -2489,7 +2658,7 @@ WHERE 1=1&#13;
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{Template App MSSQL Server:service_state[{$SSQLSERVER}].last(0)}#0</expression>
+            <expression>{Template App MSSQL Server:service_state[{$SSQLSERVER}].last(0)}&lt;&gt;0</expression>
             <name>{HOST.NAME}: SQL Server not running</name>
             <url/>
             <status>0</status>
@@ -3114,38 +3283,6 @@ WHERE 1=1&#13;
                     <item>
                         <host>Template App MSSQL Server</host>
                         <key>perf_counter[&quot;\{$PSQLSERVER}:{$OBJECT_WAIT_STATISTICS}({$WS_INSTANCE_AVERAGE_WAIT_TIME_MS})\{$WS_COUNTER_NON_PAGE_LATCH_WAITS}&quot;]</key>
-                    </item>
-                </graph_item>
-            </graph_items>
-        </graph>
-        <graph>
-            <name>MSSQL Instance: \Process(sqlservr)\% Processor Time</name>
-            <width>900</width>
-            <height>200</height>
-            <yaxismin>0.0000</yaxismin>
-            <yaxismax>100.0000</yaxismax>
-            <show_work_period>1</show_work_period>
-            <show_triggers>1</show_triggers>
-            <type>0</type>
-            <show_legend>1</show_legend>
-            <show_3d>0</show_3d>
-            <percent_left>0.0000</percent_left>
-            <percent_right>0.0000</percent_right>
-            <ymin_type_1>0</ymin_type_1>
-            <ymax_type_1>0</ymax_type_1>
-            <ymin_item_1>0</ymin_item_1>
-            <ymax_item_1>0</ymax_item_1>
-            <graph_items>
-                <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>C80000</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Template App MSSQL Server</host>
-                        <key>perf_counter[&quot;\Process(sqlservr)\% Processor Time&quot;]</key>
                     </item>
                 </graph_item>
             </graph_items>
