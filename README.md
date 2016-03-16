@@ -64,6 +64,7 @@ This template monitors SQL Server databases status, jobs status, server performa
   
   GRANT VIEW SERVER STATE to [zab]
   GRANT VIEW ANY DEFINITION TO [zab]
+  GRANT SELECT ON sys.sysaltfiles TO [zab] 
   ```
   
   And create user mapping to read data from master and msdb.
