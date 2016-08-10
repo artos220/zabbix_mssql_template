@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2016-01-04T15:27:16Z</date>
+    <date>2016-08-10T10:53:25Z</date>
     <groups>
         <group>
             <name>Template MSSQL</name>
@@ -2123,7 +2123,7 @@ where aj.stop_execution_date is null&#13;
                             <name>Job {#JOBNAME} running &gt;3h</name>
                             <url/>
                             <status>0</status>
-                            <priority>4</priority>
+                            <priority>5</priority>
                             <description/>
                             <type>0</type>
                         </trigger_prototype>
@@ -2212,7 +2212,7 @@ for xml PATH('')</params>
                             <formula>1</formula>
                             <delay_flex/>
                             <params>SELECT &#13;
-  LOGINPROPERTY(s3.[name], 'IsLocked') as [IsLocked]&#13;
+  case s1.[type] when 'U' then 0 else LOGINPROPERTY(s3.[name], 'IsLocked') end [IsLocked]&#13;
 --, s3.[is_policy_checked]&#13;
 --, s3.[is_expiration_checked]&#13;
 FROM sys.server_principals s1&#13;
@@ -2220,7 +2220,7 @@ left join sys.sql_logins as s3 on s1.sid = s3.sid&#13;
 &#13;
 WHERE 1=1&#13;
 	and s1.is_disabled = 0&#13;
-	and s1.[type] like 'S'&#13;
+	--and s1.[type] like 'S'&#13;
 	and s1.[name] like '{#USERNAME}'</params>
                             <ipmi_sensor/>
                             <data_type>3</data_type>
@@ -2266,14 +2266,14 @@ WHERE 1=1&#13;
                             <delay_flex/>
                             <params>SELECT &#13;
  -- LOGINPROPERTY(s3.[name], 'IsLocked') as [IsLocked]&#13;
- s3.[is_policy_checked]&#13;
+ case s1.[type] when 'U' then 1 else s3.[is_policy_checked] end [is_policy_checked]&#13;
 --, s3.[is_expiration_checked]&#13;
 FROM sys.server_principals s1&#13;
 left join sys.sql_logins as s3 on s1.sid = s3.sid&#13;
 &#13;
 WHERE 1=1&#13;
 	and s1.is_disabled = 0&#13;
-	and s1.[type] like 'S'&#13;
+	--and s1.[type] like 'S'&#13;
 	and s1.[name] like '{#USERNAME}'</params>
                             <ipmi_sensor/>
                             <data_type>3</data_type>

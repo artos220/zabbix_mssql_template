@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2015-04-22T13:05:20Z</date>
+    <date>2016-08-10T10:53:43Z</date>
     <groups>
         <group>
-            <name>Templates</name>
+            <name>Template MSSQL</name>
         </group>
     </groups>
     <templates>
         <template>
             <template>Template App MSSRS</template>
             <name>Template App MSSRS</name>
+            <description/>
             <groups>
                 <group>
-                    <name>Templates</name>
+                    <name>Template MSSQL</name>
                 </group>
             </groups>
             <applications>
@@ -65,6 +66,7 @@
                     <valuemap>
                         <name>Windows service state</name>
                     </valuemap>
+                    <logtimefmt/>
                 </item>
             </items>
             <discovery_rules/>
@@ -84,7 +86,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Template App MSSRS:service_state[{$SSQLREPORTING}].last(0)}#0</expression>
+            <expression>{Template App MSSRS:service_state[{$SSQLREPORTING}].last(0)}&lt;&gt;0</expression>
             <name>{HOST.NAME}: Reporting Services not running</name>
             <url/>
             <status>0</status>
